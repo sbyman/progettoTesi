@@ -14,4 +14,4 @@ Di seguito una legenda sui progetti contenuti nelle cartelle:
  - **OAuthProject**: Contiene il progetto OAuth 2.0 in cui si implementa la sola autorizzazione.
  - **NativeAppProject**: Contiene il progetto di una native application in grado di eseguire SSO, con SAML e OpenID Connect, o solo autorizzazione con OAuth 2.0.
  - **RestApiProject**: Contiene il progetto per una API RESTlike in grado di ricevere un Access Token, verificarne la validità e restituire le informazioni ottenute.
- - **SoapServer**: Contiene il progetto per un Web Service in grado di ricevere una richiesta assieme a un token di sicurezza, verificare la validità del token e restituire determinate informazioni in base ai dati letti. 
+ - **SoapServerProject**: Contiene il progetto per un Web Service in grado di ricevere una richiesta assieme a un token di sicurezza, verificare la validità del token e restituire determinate informazioni in base ai dati letti. 
