@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor
+	xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata"
+	entityID="https://192.168.1.13:8443/metadata">
+	<md:SPSSODescriptor AuthnRequestsSigned="false"
+		WantAssertionsSigned="false"
+		protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+		<md:KeyDescriptor use="signing">
+			<ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+				<ds:X509Data>
+					<ds:X509Certificate>
+						MIIDbzCCAlegAwIBAgIEOWpw/jANBgkqhkiG9w0BAQsFADBoMQswCQYDVQQGEwJJVDELMAkGA1UECBMCUk0xDTALBgNVBAcTBFJvbWExETAPBgNVBAoTCElUIENyb3dkMREwDwYDVQQLEwhJVCBDcm93ZDEXMBUGA1UEAxMOTWFudWVsIE1hbmNpbmkwHhcNMTgxMDAyMTQxNjE5WhcNMTkxMDAyMTQxNjE5WjBoMQswCQYDVQQGEwJJVDELMAkGA1UECBMCUk0xDTALBgNVBAcTBFJvbWExETAPBgNVBAoTCElUIENyb3dkMREwDwYDVQQLEwhJVCBDcm93ZDEXMBUGA1UEAxMOTWFudWVsIE1hbmNpbmkwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCDAlgAXOcNrnyDuVqvvexRRc0g1r7WcYNT0UAaWjq+ReMjT+kajbgMI7NcAepPnnORz1pNOHAzG29IIrzuHx9B889GMgQUu0msHwzofTQvwefEJP8r2yYantirwF5Gp/0sHNl7D2Ol8gBfgwn5RVZ/BJcoprgl9xthWCULPJqmwQamrjmyQCtbK2qE9oBVfIR5A8n9X+5nONP67ln14JwZE+Z0cN1aVulZSNzFbOrBcg+b+5ITnjfo8fd+4gDui+7zp7qBPQku3ygc9GkFppZNumTFs6/KIvqdVHEMQlmewxmlPDwqxBul5m5IyobT5QZH7qIaao6goBU93FgG/gIpAgMBAAGjITAfMB0GA1UdDgQWBBRWEpV5FW3vemLhvxrHRVaF+bELpjANBgkqhkiG9w0BAQsFAAOCAQEALzCqvkrMr0I7/ekUq7ZVrYCZJeyQsWQ6WIRRjA4a4Hb1JHdQTzi8av/gPTk938oHjPqFF7F1IzOHnZr94m5gCR1hyzpqhaq0ZYx96sd/8oj3NBxXYw6dtQ4ABrjuNFKUxiypHiliL6w0eWh0FDAbC4YGXIvBAuZxAjSpRWrqI2Kj63IKIYqW4b+isNm8dEn4g0BhjP7ID+EwL3c1Xml2wv1uDCv+9GFzp2BoeQUQx7GEpfkdv8Y+9pCtyEoQzWG04PG0n1gyX7hdsLvwHByg/TJHSoL9fw5E6KJH/Wzvjpfo2DD4zeFmERzPvPs3zUndislrjnF1v4X2+VGJ2G0YeA==
+					</ds:X509Certificate>
+				</ds:X509Data>
+			</ds:KeyInfo>
+		</md:KeyDescriptor>
+		<md:KeyDescriptor use="encryption">
+			<ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+				<ds:X509Data>
+					<ds:X509Certificate>
+						MIIDbzCCAlegAwIBAgIEOWpw/jANBgkqhkiG9w0BAQsFADBoMQswCQYDVQQGEwJJVDELMAkGA1UECBMCUk0xDTALBgNVBAcTBFJvbWExETAPBgNVBAoTCElUIENyb3dkMREwDwYDVQQLEwhJVCBDcm93ZDEXMBUGA1UEAxMOTWFudWVsIE1hbmNpbmkwHhcNMTgxMDAyMTQxNjE5WhcNMTkxMDAyMTQxNjE5WjBoMQswCQYDVQQGEwJJVDELMAkGA1UECBMCUk0xDTALBgNVBAcTBFJvbWExETAPBgNVBAoTCElUIENyb3dkMREwDwYDVQQLEwhJVCBDcm93ZDEXMBUGA1UEAxMOTWFudWVsIE1hbmNpbmkwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCDAlgAXOcNrnyDuVqvvexRRc0g1r7WcYNT0UAaWjq+ReMjT+kajbgMI7NcAepPnnORz1pNOHAzG29IIrzuHx9B889GMgQUu0msHwzofTQvwefEJP8r2yYantirwF5Gp/0sHNl7D2Ol8gBfgwn5RVZ/BJcoprgl9xthWCULPJqmwQamrjmyQCtbK2qE9oBVfIR5A8n9X+5nONP67ln14JwZE+Z0cN1aVulZSNzFbOrBcg+b+5ITnjfo8fd+4gDui+7zp7qBPQku3ygc9GkFppZNumTFs6/KIvqdVHEMQlmewxmlPDwqxBul5m5IyobT5QZH7qIaao6goBU93FgG/gIpAgMBAAGjITAfMB0GA1UdDgQWBBRWEpV5FW3vemLhvxrHRVaF+bELpjANBgkqhkiG9w0BAQsFAAOCAQEALzCqvkrMr0I7/ekUq7ZVrYCZJeyQsWQ6WIRRjA4a4Hb1JHdQTzi8av/gPTk938oHjPqFF7F1IzOHnZr94m5gCR1hyzpqhaq0ZYx96sd/8oj3NBxXYw6dtQ4ABrjuNFKUxiypHiliL6w0eWh0FDAbC4YGXIvBAuZxAjSpRWrqI2Kj63IKIYqW4b+isNm8dEn4g0BhjP7ID+EwL3c1Xml2wv1uDCv+9GFzp2BoeQUQx7GEpfkdv8Y+9pCtyEoQzWG04PG0n1gyX7hdsLvwHByg/TJHSoL9fw5E6KJH/Wzvjpfo2DD4zeFmERzPvPs3zUndislrjnF1v4X2+VGJ2G0YeA==
+					</ds:X509Certificate>
+				</ds:X509Data>
+			</ds:KeyInfo>
+		</md:KeyDescriptor>
+		<md:ArtifactResolutionService
+			Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP"
+			Location="https://192.168.1.13:8443/artifact/SOAP" index="1" />
+		<md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified
+		</md:NameIDFormat>
+		<md:AssertionConsumerService
+			Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"
+			Location="https://192.168.1.13:8443/response" isDefault="true" index="1" />
+		<md:AssertionConsumerService
+			Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Artifact"
+			Location="https://192.168.1.13:8443/artifact" index="2" />
+				<md:AssertionConsumerService
+			Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"
+			Location="https://192.168.1.13:8443/native/response" index="3" />
+		<md:AssertionConsumerService
+			Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Artifact"
+			Location="https://192.168.1.13:8443/native/artifact" index="4" />	
+	</md:SPSSODescriptor>
+	<md:Organization>
+		<md:OrganizationName xml:lang="en-US">Organization
+		</md:OrganizationName>
+		<md:OrganizationDisplayName
+			xml:lang="en-US">Organization SPA</md:OrganizationDisplayName>
+		<md:OrganizationURL xml:lang="en-US">http://www.org.org
+		</md:OrganizationURL>
+	</md:Organization>
+	<md:ContactPerson contactType="technical">
+		<md:GivenName>Organization IT</md:GivenName>
+		<md:EmailAddress>it@org.com</md:EmailAddress>
+	</md:ContactPerson>
+	<md:ContactPerson contactType="support">
+		<md:GivenName>Organization Support</md:GivenName>
+		<md:EmailAddress>support@org.com</md:EmailAddress>
+	</md:ContactPerson>
+</md:EntityDescriptor>

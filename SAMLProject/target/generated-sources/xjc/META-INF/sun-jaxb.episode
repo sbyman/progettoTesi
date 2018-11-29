@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings version="2.1" xmlns="http://java.sun.com/xml/ns/jaxb">
+  <!--
+
+Questo file è stato generato dall'architettura JavaTM per XML Binding (JAXB) Reference Implementation, v2.2.11 
+Vedere <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
+Qualsiasi modifica a questo file andrà persa durante la ricompilazione dello schema di origine. 
+Generato il: 2018.10.31 alle 09:29:21 AM CET 
+
+  -->
+  <bindings scd="x-schema::tns" xmlns:tns="http://spring.io/guides/gs-producing-web-service">
+    <schemaBindings map="false">
+      <package name="hello.wsdl"/>
+    </schemaBindings>
+    <bindings scd="tns:getCountryRequest">
+      <class ref="hello.wsdl.GetCountryRequest"/>
+    </bindings>
+    <bindings scd="tns:getCountryResponse">
+      <class ref="hello.wsdl.GetCountryResponse"/>
+    </bindings>
+    <bindings scd="~tns:country">
+      <class ref="hello.wsdl.Country"/>
+    </bindings>
+    <bindings scd="~tns:currency">
+      <typesafeEnumClass ref="hello.wsdl.Currency"/>
+    </bindings>
+  </bindings>
+</bindings>
+

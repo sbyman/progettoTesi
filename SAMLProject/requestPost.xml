@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<samlp:AuthnRequest AssertionConsumerServiceURL="https://192.168.1.13:8443/native/artifact" Destination="https://gluu-server.us-east1-b.c.test1-212904.internal/idp/profile/SAML2/POST/SSO" ID="SP_TEST_e8cbac098bc8d7a18fbc08d07d3a7663" IssueInstant="2018-11-16T14:12:07.530Z" ProtocolBinding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Artifact" ProviderName="SP-SOAP" Version="2.0" xmlns:samlp="urn:oasis:names:tc:SAML:2.0:protocol"><saml2:Issuer xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion">https://192.168.1.13:8443/metadata</saml2:Issuer><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference URI="#SP_TEST_e8cbac098bc8d7a18fbc08d07d3a7663"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>U6pMxppucmjW9SkClgw0A2kO8Sk=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>NWRxLhVZlACsCK1BncmNqu5+5M2R49tjxQ7uJA89yfdkDG+4v5vRLcRO3AhTOJ4dzkFOvllTWTNBIe6ZSoqv/u9PjYfpf9ZSyoVSJdu+ga4Zz959FvYWGuQpHr6gsjEDqW4z5q79CEWNd45cQv/cpGIf3wQXxOlJFEkkWSyi730RNQvcsG/BFQ9Our3wbqesz2ewgjSun/AET11Y2ZDgTi0Dcv0n9cREcFCfkeZoC4U/R2zu1q1/8d/mCxBycnlL+cV22TfE6N7hRMUE8I1UUXtrTJxrs96MTOTdR4wmnr5SuEpsnsibRnomuNAJuy288db1k5ipEsPNIRGEOrvg1Q==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIDbzCCAlegAwIBAgIEOWpw/jANBgkqhkiG9w0BAQsFADBoMQswCQYDVQQGEwJJVDELMAkGA1UE
+CBMCUk0xDTALBgNVBAcTBFJvbWExETAPBgNVBAoTCElUIENyb3dkMREwDwYDVQQLEwhJVCBDcm93
+ZDEXMBUGA1UEAxMOTWFudWVsIE1hbmNpbmkwHhcNMTgxMDAyMTQxNjE5WhcNMTkxMDAyMTQxNjE5
+WjBoMQswCQYDVQQGEwJJVDELMAkGA1UECBMCUk0xDTALBgNVBAcTBFJvbWExETAPBgNVBAoTCElU
+IENyb3dkMREwDwYDVQQLEwhJVCBDcm93ZDEXMBUGA1UEAxMOTWFudWVsIE1hbmNpbmkwggEiMA0G
+CSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCDAlgAXOcNrnyDuVqvvexRRc0g1r7WcYNT0UAaWjq+
+ReMjT+kajbgMI7NcAepPnnORz1pNOHAzG29IIrzuHx9B889GMgQUu0msHwzofTQvwefEJP8r2yYa
+ntirwF5Gp/0sHNl7D2Ol8gBfgwn5RVZ/BJcoprgl9xthWCULPJqmwQamrjmyQCtbK2qE9oBVfIR5
+A8n9X+5nONP67ln14JwZE+Z0cN1aVulZSNzFbOrBcg+b+5ITnjfo8fd+4gDui+7zp7qBPQku3ygc
+9GkFppZNumTFs6/KIvqdVHEMQlmewxmlPDwqxBul5m5IyobT5QZH7qIaao6goBU93FgG/gIpAgMB
+AAGjITAfMB0GA1UdDgQWBBRWEpV5FW3vemLhvxrHRVaF+bELpjANBgkqhkiG9w0BAQsFAAOCAQEA
+LzCqvkrMr0I7/ekUq7ZVrYCZJeyQsWQ6WIRRjA4a4Hb1JHdQTzi8av/gPTk938oHjPqFF7F1IzOH
+nZr94m5gCR1hyzpqhaq0ZYx96sd/8oj3NBxXYw6dtQ4ABrjuNFKUxiypHiliL6w0eWh0FDAbC4YG
+XIvBAuZxAjSpRWrqI2Kj63IKIYqW4b+isNm8dEn4g0BhjP7ID+EwL3c1Xml2wv1uDCv+9GFzp2Bo
+eQUQx7GEpfkdv8Y+9pCtyEoQzWG04PG0n1gyX7hdsLvwHByg/TJHSoL9fw5E6KJH/Wzvjpfo2DD4
+zeFmERzPvPs3zUndislrjnF1v4X2+VGJ2G0YeA==</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature><saml2p:NameIDPolicy AllowCreate="true" Format="urn:oasis:names:tc:SAML:2.0:nameid-format:transient" xmlns:saml2p="urn:oasis:names:tc:SAML:2.0:protocol"/><saml2p:RequestedAuthnContext Comparison="exact" xmlns:saml2p="urn:oasis:names:tc:SAML:2.0:protocol"><saml2:AuthnContextClassRef xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion">urn:oasis:names:tc:SAML:2.0:ac:classes:PasswordProtectedTransport</saml2:AuthnContextClassRef></saml2p:RequestedAuthnContext></samlp:AuthnRequest>
