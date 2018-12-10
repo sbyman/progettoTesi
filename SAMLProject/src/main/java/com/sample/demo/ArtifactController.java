@@ -37,7 +37,7 @@ public class ArtifactController {
 			//Crea l'input container con i parametri per una redirect
 			input = new SAMLInputContainer();
 			
-			input.setIssuer("https://192.168.1.13:8443/metadata");
+			input.setIssuer("https://192.168.1.7:8443/metadata");
 			input.setProtocolBinding("urn:oasis:names:tc:SAML:2.0:bindings:SOAP");
 			input.setDestination("https://gluu-server.us-east1-b.c.test1-212904.internal/idp/profile/SAML2/SOAP/ArtifactResolution");
 			

@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.sample</groupId>
-	<artifactId>online-test-oauth</artifactId>
+	<artifactId>oauth-project</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>online-test-oauth</name>
+	<name>oauth-project</name>
 	<description>Test project for SAML on SOAP</description>
 
 	<parent>

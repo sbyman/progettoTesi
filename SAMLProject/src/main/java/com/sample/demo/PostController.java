@@ -46,10 +46,10 @@ public class PostController {
 			//Crea l'input container con i parametri per una redirect
 			input = new SAMLInputContainer();
 			
-			input.setIssuer("https://192.168.1.13:8443/metadata");
+			input.setIssuer("https://192.168.1.7:8443/metadata");
 			input.setProtocolBinding("urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Artifact");
 			input.setDestination("https://gluu-server.us-east1-b.c.test1-212904.internal/idp/profile/SAML2/POST/SSO");
-			input.setAssertionConsumerServiceURL("https://192.168.1.13:8443/artifact");
+			input.setAssertionConsumerServiceURL("https://192.168.1.7:8443/artifact");
 			
 			//Crea la richiesta
 			AuthnRequest authnRequest = req.createAssertion(input, "POST");

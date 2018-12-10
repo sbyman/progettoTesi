@@ -5,11 +5,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.example</groupId>
-	<artifactId>soap-server</artifactId>
+	<artifactId>soap-api-project</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>soap-server</name>
+	<name>soap-api-project</name>
 	<description>Progetto client SOAP per richiesta risorse</description>
 
 	<parent>

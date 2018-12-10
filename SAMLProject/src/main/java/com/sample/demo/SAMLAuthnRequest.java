@@ -60,7 +60,7 @@ public class SAMLAuthnRequest {
 		//Crea l'oggetto AuthnContextClassRef
 		SAMLObjectBuilder authnContextClassRefBuilder = (SAMLObjectBuilder) getSAMLBuilder().getBuilder(AuthnContextClassRef.DEFAULT_ELEMENT_NAME);
 		AuthnContextClassRef authnContextClassRef = (AuthnContextClassRef) authnContextClassRefBuilder.buildObject();
-		authnContextClassRef.setAuthnContextClassRef("urn:oasis:names:tc:SAML:2.0:ac:classes:PasswordProtectedTransport");
+		authnContextClassRef.setAuthnContextClassRef("urn:oasis:names:tc:SAML:2.0:ac:classes:Password");
 		
 		//Crea l'oggetto RequestedAuthnContext
 		SAMLObjectBuilder requestedAuthnContextBuilder = (SAMLObjectBuilder) getSAMLBuilder().getBuilder(RequestedAuthnContext.DEFAULT_ELEMENT_NAME);

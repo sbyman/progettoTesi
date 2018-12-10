@@ -50,10 +50,10 @@ public class RedirectController {
 			//Crea l'input container con i parametri per una redirect
 			input = new SAMLInputContainer();
 			
-			input.setIssuer("https://192.168.1.13:8443/metadata");
+			input.setIssuer("https://192.168.1.7:8443/metadata");
 			input.setProtocolBinding("urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST");
 			input.setDestination("https://gluu-server.us-east1-b.c.test1-212904.internal/idp/profile/SAML2/Redirect/SSO");
-			input.setAssertionConsumerServiceURL("https://192.168.1.13:8443/response");
+			input.setAssertionConsumerServiceURL("https://192.168.1.7:8443/response");
 			
 			//Crea la richiesta
 			AuthnRequest authnRequest = req.createAssertion(input, "redirect");
@@ -156,8 +156,8 @@ public class RedirectController {
 		System.out.println("Indirizzo:\n" + input.getDestination() + "?SAMLRequest=" + encodedRequest + "&Signature=" + encodedSignature);
 		
 		RedirectView redirectView = new RedirectView();
-		redirectView.setUrl(input.getDestination() + "?SAMLRequest=" + encodedRequest + "&Signature=" + encodedSignature);
-		
+		//redirectView.setUrl(input.getDestination() + "?SAMLRequest=" + encodedRequest + "&Signature=" + encodedSignature);
+		redirectView.setUrl(input.getDestination() + "?SAMLRequest=" + encodedRequest);
 		return redirectView;
 
 	}
