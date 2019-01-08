@@ -4,7 +4,7 @@
    - l'utilizzo di Java 11 anziché Java 8 per la compilazione del progetto.
    - la realizzazione del custom handler potrebbe variare su distribuzioni differenti dello stesso OS.
 
-- Creare un handler per le richieste all'applicazione:
+Creare un handler per le richieste all'applicazione:
    1. Inserire `x-scheme-handler/myapp=myapp.desktop` in `/usr/share/applications/default.list`
    2. Creare un desktop file contenente:
       ```
