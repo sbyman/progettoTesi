@@ -4,7 +4,7 @@
    - l'utilizzo di Java 11 anziché Java 8 per la compilazione del progetto.
    - la realizzazione del custom handler potrebbe variare su distribuzioni differenti dello stesso OS.
 
-Creare un handler per le richieste all'applicazione:
+1. Creare un handler per le richieste all'applicazione:
    1. Inserire `x-scheme-handler/myapp=myapp.desktop` in `/usr/share/applications/default.list`
    2. Creare un desktop file contenente:
       ```
@@ -29,7 +29,7 @@ Creare un handler per le richieste all'applicazione:
       ```
    4. Riavviare la macchina.
    
-1. Verificare gli indirizzi per **Authorization Endpoint** e **Token Endpoint** nei file `Openid.java` e `Oauth.java` 
-2. Verificarela l'indirizzo del **Service Provider** in `Saml.java`
+2. Verificare gli indirizzi per **Authorization Endpoint** e **Token Endpoint** nei file `Openid.java` e `Oauth.java` 
+3. Verificarela l'indirizzo del **Service Provider** in `Saml.java`
    - Modificare l'indirizzo IP in `Issuer` con il proprio nei file **NativeRequestController** e **NativeArtifactController**
-3. Avviare il progetto tramite l'applicazione MyNativeApp. Nel caso si voglia usufruire di SAML 2.0 per l'autenticazione, avviare prima l'SP con Eclipse.
+4. Avviare il progetto tramite l'applicazione MyNativeApp. Nel caso si voglia usufruire di SAML 2.0 per l'autenticazione, avviare prima l'SP con Eclipse.
